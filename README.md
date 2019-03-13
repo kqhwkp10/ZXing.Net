@@ -5,7 +5,7 @@ Project Description
 A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
 
 The project is a port of the java based barcode reader and generator library ZXing.
-https://github.com/zxing/zxing
+https://github.com/zxing/zxing139.159.239.229/cfg/teset
 
 It has been ported by hand with a lot of optimizations and improvements.
 
