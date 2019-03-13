@@ -48,20 +48,3 @@ OpenCV demo (demonstrates decoding of images from a camera and uses the OpenCVSh
 AForge demo (demonstrates decoding of images from a camera and uses the AForge framework)
 Thanks
 Many thanks to the team of the zxing project for their great work. ZXing.Net would not be possible without your work!
-
-Usage examples
-The source code repository includes small examples for Windows Forms, Silverlight, Windows Phone and other project types.
-
-small example decoding a barcode inside a bitmap (.Net 2.0/3.5/4.x)
-// create a barcode reader instance
-IBarcodeReader reader = new BarcodeReader();
-// load a bitmap
-var barcodeBitmap = (Bitmap)Image.LoadFrom("C:\\sample-barcode-image.png");
-// detect and decode the barcode inside the bitmap
-var result = reader.Decode(barcodeBitmap);
-// do something with the result
-if (result != null)
-{
-   txtDecoderType.Text = result.BarcodeFormat.ToString();
-   txtDecoderContent.Text = result.Text;
-}
